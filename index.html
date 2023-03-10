@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title"> What's in your fridge?</h2>
+                <blockquote>Laughter is brightest in the place where food is good.
+                    <cite>- Irish Proverb</cite>
+                </blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter a product" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="categories-wrapper">
+                    Popular categories: 
+                    <a href="#" id="category-btn" class="breakfast"> Breakfast</a>
+                    <a href="#" id="category-btn" class="dessert"> Dessert</a>
+                    <a href="#" id="category-btn" class="miscellaneous"> Miscellaneous</a>
+                    <a href="#" id="category-btn" class="vegan">Vegan</a>
+                </div>
+                <h3>No cooking ideas? <a href="#" class="random-btn"> Get random recipe</a></h3>
+            </div>
+            <div class="meal-results">
+                <h2 class="title">Results:</h2>
+                <div id="meal">
+                    <!--meal block start-->
+                   <!-- <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="food.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Potato Chips</h3>
+                            <a href="" class="recipe-btn"> Read Recipe</a>
+                        </div>
+                    </div> -->
+                    <!--meal block end-->     
+                </div>
+            </div>
+
+            <div class="meal-details">
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="meal-details-content">
+                  <!-- <h2 class="recipe-titile">Meal name</h2>
+                    <p class="recipe-category">
+                        Category
+                    </p>
+                    <div class="recipe-instruct">
+                        <h3>Instructions:</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perspiciatis deleniti recusandae expedita ducimus. Dicta, commodi! Omnis placeat quis suscipit id voluptatibus autem dignissimos, dicta delectus, nisi numquam neque culpa?
+                        </p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="food.jpg" alt="">
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">watch video</a>
+                    </div> --> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
